@@ -1,13 +1,45 @@
 
 .introduction{
+    font-size: 30px;
     width: 100%;
     font-family: "Titillium Web";
     overflow: hidden;
+    background-image: url("../assets/top_image_large.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+
 }
 
 
-.introduction img{
+.introduction div{
+    color: white;
     height: auto;
-
     width: 100%;
+
+    height: 200px;
+}
+
+.introduction #title {
+    font-size: 120%;
+    width: 25%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 0px;
+    height: 100%;
+    /*justify-content: center;*/
+    /*align-content: center;*/
+
+}
+
+.introduction #subtitle {
+    font-size: 60%;
+    height: 100%;
+    padding-top: 5px;
+    padding-left: 5%;
+    padding-bottom: 10%;
+    width:30%;
+
+    /*justify-content: center;*/
+    /*align-content: center;*/
 }
