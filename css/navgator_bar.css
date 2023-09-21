@@ -3,27 +3,35 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #363874;
     width: 100%;
     font-family:"Titillium Web";
-}
-
-
-
-.nav_bar li a,
-.nav_bar li {
-    display: inline;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 30px;
+    display: flex;
     flex-direction: row;
-    position: relative;
-    justify-content: center;
-    float: left;
+    align-items: center;
+    /*justify-content: center;*/
+
 }
 
-.nav_bar li a:hover {
-    background-color: #111;
+
+.nav_bar #logo{
+    color: white;
+    font-size: 200%;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.nav_bar #slogan{
+    /*justify-content: center;*/
+    color: white;
+    font-size: 100%;
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.nav_bar #shop{
+
+    float: right;
+    position: absolute;
+    right: 0;
 }

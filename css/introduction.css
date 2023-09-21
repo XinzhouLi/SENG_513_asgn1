@@ -9,6 +9,7 @@
     background-size: 100%;
 
 
+
 }
 
 
@@ -17,7 +18,7 @@
     height: auto;
     width: 100%;
 
-    height: 200px;
+    /*height: 200px;*/
 }
 
 .introduction #title {
@@ -37,9 +38,36 @@
     height: 100%;
     padding-top: 5px;
     padding-left: 5%;
-    padding-bottom: 10%;
+    padding-bottom: 18%;
     width:30%;
+}
 
-    /*justify-content: center;*/
-    /*align-content: center;*/
+.introduction .text{
+    color: black;
+    padding-top: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-size: 60%;
+}
+
+.introduction .subtext{
+    /*display: flex;*/
+    /*align-items: ;*/
+    /*width:80%;*/
+
+    color: black;
+    padding-top: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    /*margin-right: 8%;*/
+    font-size: 40%;
+}
+
+.video{
+    background-color: #363874;
+}
+.video embed{
+    width: 100%;
+    padding: ;
+
 }
