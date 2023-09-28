@@ -16,22 +16,34 @@
 
 .nav_bar #logo{
     color: white;
-    font-size: 200%;
+    font-size: 222%;
     padding-left: 5%;
     padding-top: 1%;
     padding-bottom: 1%;
+    font-weight: lighter;
+
 }
 .nav_bar #slogan{
     /*justify-content: center;*/
     color: white;
-    font-size: 100%;
+    font-size: 140%;
     padding-left: 3%;
     padding-top: 1%;
     padding-bottom: 1%;
+    font-style: italic;
 }
 .nav_bar #shop{
-
+    height: 100%;
+    font-size: 140%;
+    box-sizing: border-box;
     float: right;
     position: absolute;
     right: 0;
+    color: white;
+    padding: 1.5% 4%;
+    height: 8%;
+    background-color: #2789C0;
+}
+.nav_bar #shop :visited{
+    color: white;
 }

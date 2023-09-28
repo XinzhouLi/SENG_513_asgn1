@@ -1,0 +1,42 @@
+.description{
+    width: 100%;
+    font-family: "Titillium Web";
+    overflow: hidden;
+    font-size: 30px;
+    padding-bottom: 4%;
+}
+
+
+.description .text{
+    color: black;
+    padding-top: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-size: 100%;
+}
+
+.description .subtext{
+    color: black;
+    padding-top: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-right: 8%;
+    font-size: 65%;
+}
+
+.video{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    /*padding-right: 4%,4%;*/
+    /*box-sizing: ;*/
+    align-items: center;
+    background-color: #363874;
+}
+.video embed {
+    object-fit: contain;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 90%;
+    height: 90%;
+}

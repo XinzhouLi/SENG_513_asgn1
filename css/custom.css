@@ -1,0 +1,9 @@
+.cus_box{
+    width: 100%;
+    font-family: "Titillium Web";
+    overflow: hidden;
+    font-size: 30px;
+    padding-bottom: 4%;
+    display: grid;
+    justify-content: space-evenly;
+}

@@ -18,56 +18,25 @@
     height: auto;
     width: 100%;
 
-    /*height: 200px;*/
 }
 
 .introduction #title {
-    font-size: 120%;
+    font-size: 180%;
     width: 25%;
     padding-top: 5%;
     padding-left: 5%;
     padding-bottom: 0px;
     height: 100%;
-    /*justify-content: center;*/
-    /*align-content: center;*/
-
 }
 
 .introduction #subtitle {
-    font-size: 60%;
+    font-size: 80%;
     height: 100%;
-    padding-top: 5px;
+    padding-top: 2%;
     padding-left: 5%;
-    padding-bottom: 18%;
+    padding-bottom: 13%;
     width:30%;
 }
 
-.introduction .text{
-    color: black;
-    padding-top: 2%;
-    padding-left: 8%;
-    padding-right: 8%;
-    font-size: 60%;
-}
 
-.introduction .subtext{
-    /*display: flex;*/
-    /*align-items: ;*/
-    /*width:80%;*/
 
-    color: black;
-    padding-top: 2%;
-    padding-left: 8%;
-    padding-right: 8%;
-    /*margin-right: 8%;*/
-    font-size: 40%;
-}
-
-.video{
-    background-color: #363874;
-}
-.video embed{
-    width: 100%;
-    padding: ;
-
-}
