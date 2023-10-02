@@ -1,3 +1,8 @@
+/* Course: SENG 513 */
+/* Date: SEPT 1, 2023 */
+/* Assignment 1 */
+/* Name: Xinzhou Li */
+/* UCID: 30066080 */
 .description{
     width: 100%;
     font-family: "Titillium Web";
@@ -13,6 +18,8 @@
     padding-left: 8%;
     padding-right: 8%;
     font-size: 100%;
+    font-weight: bold;
+
 }
 
 .description .subtext{
@@ -21,7 +28,7 @@
     padding-left: 8%;
     padding-right: 8%;
     margin-right: 8%;
-    font-size: 65%;
+
 }
 
 .video{
@@ -39,4 +46,19 @@
     padding-bottom: 3%;
     width: 90%;
     height: 90%;
+}
+
+@media screen and (max-width: 640px){
+    .description .text{
+        padding-top: 5%;
+        padding-left: 3%;
+    }
+    .description .subtext{
+        padding-top: 5%;
+        padding-left: 3%;
+    }
+    .video embed{
+        padding-top: 15%;
+        padding-bottom: 10%;
+    }
 }

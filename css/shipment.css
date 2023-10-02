@@ -1,0 +1,73 @@
+.shipment {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-areas:
+            "to_top to_top"
+            "header header"
+            "1 2";
+    background-image: url("../assets/shipping_icon_large.png");
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-color: #FFFAF7;
+    padding-bottom: 10%;
+    background-position: -8% 82%;
+    grid-template-columns: 55% 45%;
+}
+.shipment .title {
+    grid-area: header;
+    font-size: 200%;
+    padding-left: 22%;
+    padding-top: 3%;
+    padding-bottom: 4%;
+    font-weight: bold;
+}
+
+.shipment button{
+    border-width: 0px;
+    padding: 0px;
+}
+.shipment #to_top{
+    grid-area: to_top;
+
+    justify-self: end;
+}
+.shipment .left{
+    padding-left: 40%;
+    font-size: 140%;
+}
+.shipment .right{
+    padding-left: 10%;
+    font-size: 140%;
+    padding-right: 10%;
+
+}
+
+@media screen and (max-width: 640px){
+    .shipment {
+        grid-template-areas:
+            "to_top"
+            "header"
+            "1"
+            "2";
+        grid-template-columns: none;
+        background-image: url("../assets/shipping_icon_small.png");
+        background-position: 100% 5%;
+        background-size: 15%;
+    }
+    .shipment #to_top{
+        justify-self: center;
+    }
+    .shipment .title{
+        padding-left: 3%;
+    }
+    .shipment .left{
+        padding-left: 3%;
+        width: 80%;
+    }
+    .shipment .right{
+        padding-top: 5%;
+        padding-left: 3%;
+        width: 80%;
+
+    }
+}

@@ -38,5 +38,42 @@
     width:30%;
 }
 
+#shop2{
+    display: none;
+}
 
+@media screen and (max-width: 640px){
+    .introduction{
+        background-image: url("../assets/top_image_small.png");
+        background-size: 100%;
+
+    }
+    .introduction #title{
+        color: black;
+        padding-top: 68%;
+        font-size: 150%;
+        width: 100%;
+        padding-left: 3%;
+    }
+    .introduction #subtitle{
+        padding-top: 6%;
+        padding-left: 3%;
+        color: black ;
+        width: 90%;
+        font-size: 100%;
+        padding-bottom: 5%;
+    }
+    #shop2{
+        display: block;
+        margin-left: 3%;
+        width: 20%;
+        padding: 3% 0.5%;
+        font-size: 100%;
+        background-color: #2E9DCB;
+        text-align: center;
+        font-weight: bold;
+        border: none;
+        color: white;
+    }
+}
 

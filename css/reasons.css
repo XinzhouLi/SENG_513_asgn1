@@ -1,0 +1,64 @@
+.reasons{
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-areas:
+            "header header"
+            "1 4 "
+            "2 5 "
+            "3 6 ";
+    background-image: url("../assets/flourish.png");
+    background-color: #2A648A;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    color: white;
+    padding-bottom: 10%;
+}
+.reasons .header{
+    grid-area: header;
+    text-align: center;
+    font-size: 200%;
+    padding-bottom: 4%;
+}
+.reasons img{
+    padding-top: 6%;
+    padding-bottom: 1%;
+}
+.reasons .item{
+    font-size: 140%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 4%;
+}
+.reasons .item .text{
+    padding-left: 4%;
+}
+
+@media screen and (max-width: 640px){
+    .reasons{
+        grid-template-areas:
+            "header"
+            "1"
+            "2"
+            "3"
+        "4"
+        "5"
+        "6"
+    ;
+        background-image: none;
+    }
+    .reasons .header img{
+        padding-top: 12%;
+    }
+    .reasons .header{
+        padding-bottom: 8%;
+        font-size: 230%;
+    }
+    .reasons .item{
+        font-size: 180%;
+        padding-left: 5%;
+        padding-right: 18%;
+    }
+
+
+}
